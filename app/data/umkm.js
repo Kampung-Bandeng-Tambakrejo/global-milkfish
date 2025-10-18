@@ -6,7 +6,7 @@ export  const umkmData = [
         imageSrc: "https://image.idntimes.com/post/20220215/kampung-sentra-bandeng-tambakrejo-semarang-kub-global-milk-fish-bri-incubator-ud-mina-makmur-bandeng-presto-bandeng-presto-bu-darmono-ilustrasi-umkm-37-17a99e75e56f646cb402d8a0df8002ed.jpg",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, natus.",
         menu:[
-            {name : "Bandeng", price : 10000},
+            {name : "Bandeng", price : 10000, imageSrc:"https://media.istockphoto.com/id/1881705666/id/foto/ikan-bandeng-adalah-makanan-laut-penting-di-asia-tenggara-karena-mudah-dibudidayakan.jpg?s=612x612&w=0&k=20&c=6lODSKxBbe4GOg4iSQHPUpEn3LQrEfTpbMP_kGgWLoQ="},
             {name : "ngotak - otak", price : 20000},
             {name : "Tahu Bakso", price : 30000},
             {name : "sego", price : 40000},
@@ -15,7 +15,7 @@ export  const umkmData = [
         delivery: ["gojek", "grab", "jne"],
         contact: {
             whatsapp: "86969699696969",
-            instagram: "bandeng_bu_mumpuni"
+            instagram: "minamakmurid"
         }
     },
 
@@ -40,7 +40,7 @@ export  const umkmData = [
     },
 
         {
-        id: 1,
+        id: 3,
         name: "Bandeng Bu Darmono",
         owner: "Ibu Darmono",
         imageSrc: "https://image.idntimes.com/post/20220215/kampung-sentra-bandeng-tambakrejo-semarang-kub-global-milk-fish-bri-incubator-ud-mina-makmur-bandeng-presto-bandeng-presto-bu-darmono-ilustrasi-umkm-37-17a99e75e56f646cb402d8a0df8002ed.jpg",
