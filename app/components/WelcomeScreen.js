@@ -29,9 +29,13 @@ export default function WelcomeScreen({ onEnter, animationClass }) {
       <div className="relative z-10 flex flex-col items-center justify-center text-center">
         <div className="relative flex items-center justify-center">
           <div className="absolute w-32 h-32 rounded-full border-4 border-cyan-400/20 animate-spin-slow border-t-cyan-300"></div>
-          <div className="w-24 h-24 rounded-full bg-gradient-to-b from-cyan-400 to-blue-700 border-2 border-cyan-300 flex items-center justify-center text-4xl font-extrabold text-white shadow-[0_0_30px_rgba(0,255,255,0.5)] select-none animate-logo-pulse">
-            GM
-          </div>
+            <div className="w-24 h-24 rounded-full bg-gradient-to-b from-cyan-400 to-blue-700 border-2 border-cyan-300 flex items-center justify-center shadow-[0_0_30px_rgba(0,255,255,0.5)] select-none animate-logo-pulse overflow-hidden">
+              <img
+                src="Images\GambarLogoGlobalMilk.jpg"
+                alt="Global Milkfish Logo"
+                className="w-full h-full object-cover"
+              />
+            </div>
         </div>
 
         {showTitle && (
