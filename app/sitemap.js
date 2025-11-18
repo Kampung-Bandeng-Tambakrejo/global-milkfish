@@ -1,6 +1,6 @@
 export default function sitemap() {
  
-  const baseUrl = 'https://umkmglobalmilkfish.vercel.app'; 
+  const baseUrl = 'https://umkmglobalmilkfish.vercel.app/'; 
 
   return [
     {
