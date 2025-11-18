@@ -50,7 +50,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="id">
       <head>
-        <meta name="google-site-verification" content="KODE_VERIFIKASI_GOOGLE_CONSOLE" />
+        <meta name="google-site-verification" content="BkdxyTL-_Oy5qWx9gR1hcJ88-YfI1uUn_oCzsGkdYBQ" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
