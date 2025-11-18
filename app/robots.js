@@ -5,6 +5,6 @@ export default function robots() {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://global-milkfish.vercel.app/sitemap.xml',
+    sitemap: 'https://umkmglobalmilkfish.vercel.app/sitemap.xml',
   }
 }
