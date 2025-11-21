@@ -67,7 +67,7 @@ export default function LandingContent({ onSelectUmkm }) {
           <FishIcon className="size-12 text-sky-500 mx-auto mb-4" />
           <h2 className="text-3xl md:text-4xl font-bold text-sky-600">Tentang UMKM Tambakrejo</h2>
           <p className="mt-4 text-lg text-gray-600 leading-relaxed">
-            Global Milkfish adalah etalase digital bagi para pelaku UMKM di Kampung Bandeng Tambakrejo. Kami berkomitmen untuk melestarikan resep tradisional sambil berinovasi, memastikan setiap produk yang Anda nikmati memiliki kualitas terbaik dan cerita yang kaya di baliknya.
+            Sentra Bandeng Tambakrejo: Etalase Digital untuk Seluruh Produk Unggulan Olahan Ikan di Kelurahan Tambakrejo, Semarang.
           </p>
         </div>
       </motion.section>
