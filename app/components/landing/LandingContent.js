@@ -50,7 +50,7 @@ export default function LandingContent({ onSelectUmkm }) {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight">Selamat Datang di Global Milkfish</h1>
+            <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight">Selamat Datang di kampung sentra bandeng Tambakrejo</h1>
             <p className="mt-4 text-lg md:text-xl max-w-3xl mx-auto">Sebuah inisiatif bersama untuk membawa cita rasa otentik dari Kampung Bandeng Tambakrejo ke panggung dunia.</p>
           </motion.div>
         </div>
@@ -65,7 +65,7 @@ export default function LandingContent({ onSelectUmkm }) {
       >
         <div className="max-w-4xl mx-auto text-center">
           <FishIcon className="size-12 text-sky-500 mx-auto mb-4" />
-          <h2 className="text-3xl md:text-4xl font-bold text-sky-600">Tentang Global Milkfish</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-sky-600">Tentang UMKM Tambakrejo</h2>
           <p className="mt-4 text-lg text-gray-600 leading-relaxed">
             Global Milkfish adalah etalase digital bagi para pelaku UMKM di Kampung Bandeng Tambakrejo. Kami berkomitmen untuk melestarikan resep tradisional sambil berinovasi, memastikan setiap produk yang Anda nikmati memiliki kualitas terbaik dan cerita yang kaya di baliknya.
           </p>
@@ -145,7 +145,7 @@ export default function LandingContent({ onSelectUmkm }) {
       </section>
 
       <footer className="bg-sky-900 text-sky-100 text-center p-8">
-        <p>&copy; 2025 Global Milkfish - Kampung Bandeng Tambakrejo. All rights reserved.</p>
+        <p>&copy; 2025 UMKM Tambakrejo - Kampung Bandeng Tambakrejo. All rights reserved.</p>
       </footer>
     </div>
   );

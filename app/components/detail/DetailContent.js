@@ -3,7 +3,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { InstagramIcon, WhatsAppIcon, ArrowLeftIcon } from '../ui/Icons';
-import { EmblaCarousel } from '../ui/Carousel'; // Import carousel baru
+import { EmblaCarousel } from '../ui/Carousel'; 
 
 export default function DetailContent({ umkm, onBack }) {
 
@@ -28,12 +28,10 @@ export default function DetailContent({ umkm, onBack }) {
 
             <div className="bg-white rounded-xl shadow-xl overflow-hidden">
                 <div className="grid grid-cols-1 md:grid-cols-2">
-                    {/* Gambar Toko (Diganti Carousel) */}
                     <div className="relative h-64 md:h-auto min-h-[400px]">
                         <EmblaCarousel slides={umkm.galleryImages} options={carouselOptions} />
                     </div>
 
-                    {/* Info Toko */}
                     <div className="p-6 md:p-8 flex flex-col">
                         <h1 className="text-3xl font-bold text-gray-900">{umkm.name}</h1>
                         <p className="text-md text-gray-500 mt-1">Milik {umkm.owner}</p>
@@ -56,7 +54,6 @@ export default function DetailContent({ umkm, onBack }) {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-gray-200">
-                    {/* Menu (Dengan Gambar) */}
                     <div className="bg-white p-6 md:p-8">
                         <h2 className="text-2xl font-bold mb-4">Menu Unggulan</h2>
                         <ul className="space-y-4">
@@ -79,7 +76,6 @@ export default function DetailContent({ umkm, onBack }) {
                         </ul>
                     </div>
 
-                    {/* Pengiriman */}
                     <div className="bg-white p-6 md:p-8">
                         <h2 className="text-2xl font-bold mb-4">Opsi Pengiriman</h2>
                         <div className="flex flex-wrap gap-3">

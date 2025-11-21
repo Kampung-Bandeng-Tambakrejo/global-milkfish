@@ -19,7 +19,6 @@ export default function WelcomeScreen({ onEnter, animationClass }) {
     <div
       className={`relative flex items-center justify-center min-h-screen overflow-hidden ${animationClass}`}>
       <div className="absolute inset-0 bg-gradient-to-b from-cyan-700 via-blue-900 to-gray-900 animate-ocean-wave"></div>
-      {/* <div className="absolute inset-0 bg-blue-900/40 backdrop-blur-md"></div> */}
       <div className="particles">
         {Array.from({ length: 12 }).map((_, i) => (
           <div key={i} className="bubble"></div>
@@ -31,8 +30,8 @@ export default function WelcomeScreen({ onEnter, animationClass }) {
           <div className="absolute w-32 h-32 rounded-full border-4 border-cyan-400/20 animate-spin-slow border-t-cyan-300"></div>
             <div className="w-24 h-24 rounded-full bg-gradient-to-b from-cyan-400 to-blue-700 border-2 border-cyan-300 flex items-center justify-center shadow-[0_0_30px_rgba(0,255,255,0.5)] select-none animate-logo-pulse overflow-hidden">
               <img
-                src="Images\GambarLogoGlobalMilk.jpg"
-                alt="Global Milkfish Logo"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logo_Kementerian_Usaha_Mikro%2C_Kecil%2C_dan_Menengah_Republik_Indonesia_%282025%29_%28cropped%29.svg/2023px-Logo_Kementerian_Usaha_Mikro%2C_Kecil%2C_dan_Menengah_Republik_Indonesia_%282025%29_%28cropped%29.svg.png"
+                alt="umkm tambakrejo Logo"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -41,7 +40,7 @@ export default function WelcomeScreen({ onEnter, animationClass }) {
         {showTitle && (
           <div className="mt-8 animate-fade-slide">
             <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-white drop-shadow-[0_0_20px_rgba(0,255,255,0.4)]">
-              Global Milkfish
+              UMKM Tambakrejo
             </h1>
             <p className="text-xl md:text-2xl text-cyan-200 mt-3 font-light">
               UMKM Kampung Bandeng Tambakrejo
@@ -56,6 +55,7 @@ export default function WelcomeScreen({ onEnter, animationClass }) {
             transition-all duration-500 transform hover:scale-110 shadow-lg hover:shadow-cyan-400/40 animate-fade-slide"
           >
             Jelajahi Rasa Laut Sekarang 🌊
+            
           </button>
         )}
       </div>
